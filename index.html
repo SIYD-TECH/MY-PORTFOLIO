@@ -49,25 +49,28 @@
             <div class="hidden sm:flex flex gap-[30px] md:text-[1.2rem] font-medium">
                 <p
                     class="text-[#f5f5f5] cursor-pointer transition  ease-in-out duration-300 hover:text-[#12F7D6] hover:-translate-y-1 hover:scale-105 ">
-                    <a href="">Home</a></p>
+                    <a href="">Home</a>
+                </p>
 
                 <p
                     class="text-[#12F7D6] cursor-pointer transition ease-in-out duration-300 hover:text-[#fafafa] hover:scale-105 hover:-translate-y-1">
-                    <a href="">Projects</a></p>
+                    <a href="">Projects</a>
+                </p>
 
                 <p
                     class="text-[#fafafa] cursor-pointer transition ease-in-out duration-300 hover:text-[#12F7D6] hover:scale-105 hover:-translate-y-1">
-                    <a href="">About Me</a></p>
+                    <a href="">About Me</a>
+                </p>
 
                 <p
                     class="text-[#12F7D6] cursor-pointer transition ease-in-out duration-300 hover:text-[#fafafa] hover:scale-105 hover:-translate-y-1">
-                    <a href="">Contact</a></p>
+                    <a href="">Contact</a>
+                </p>
             </div>
         </nav>
     </header>
 
     <main>
-        <!-- <section> -->
         <!-- HERO SECTION -->
         <section class="bg-[#292F36] min-h-fit md:px-30 px-5 ">
             <div class="h-[1px] w-full bg-gray-600/50"></div>
@@ -139,7 +142,6 @@
                 </div>
             </div>
         </section>
-        <!-- </section> -->
 
         <!-- ABOUT ME SECTION -->
         <section class="flex justify-center about xl:px-40 px-5 min-h-fit py-30">
@@ -179,62 +181,313 @@
         </section>
 
         <!-- SKILLS SECTION -->
-        <section class="skills min-h-fit py-30 px-5">
-            <div>
-                <p class="text-center text-[2.5rem] mb-5 font-semibold text-[#12F7D6]">Skills</p>
-                <div class="flex justify-content-center w-full">
-                    <div class="grid md:grid-cols-3 lg:grid-cols-4 gap-[100px] w-full justify-center grid-cols-2">
-                        <div class="flex justify-center  items-center flex-col">
-                            <img src="./assetss/Icon html.png" alt="" width="100">
-                            <p class="text-center text-orange-500 w-fit">HTML</p>
+        <section class=" bg-[#292F36] relative bg-cover bg-center bg-no-repeat py-24 px-8">
+            <!-- <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div> -->
+
+            <div class="relative z-10 max-w-6xl mx-auto text-center text-white">
+                <!-- Heading -->
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-[#12F7D6] tracking-wide">
+                    Skills & Tools
+                </h2>
+                <p class="text-gray-300 max-w-2xl mx-auto mb-16">
+                    These are the technologies and tools I work with to build creative and
+                    high-performing web applications.
+                </p>
+
+                <!-- Skills Grid -->
+                <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 place-items-center">
+                    <!-- Skill Card -->
+                    <div
+                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#12F7D6]">
+                        <img src="./assetss/Icon html.png" alt="HTML" class="w-12 mb-3" />
+                        <p class="text-[#ff8800] font-medium">HTML</p>
+                    </div>
+
+                    <div
+                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#12F7D6]">
+                        <img src="./assetss/Icon css.png" alt="CSS" class="w-12 mb-3" />
+                        <p class="text-[#38bdf8] font-medium">CSS</p>
+                    </div>
+
+                    <div
+                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#12F7D6]">
+                        <img src="./assetss/Iconjs.png" alt="JavaScript" class="w-12 mb-3" />
+                        <p class="text-yellow-400 font-medium">JavaScript</p>
+                    </div>
+
+                    <div
+                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#12F7D6]">
+                        <img src="./assetss/Icon react.png" alt="React" class="w-12 mb-3" />
+                        <p class="text-[#38bdf8] font-medium">React</p>
+                    </div>
+
+                    <div
+                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#12F7D6]">
+                        <img src="./assetss/devicon--bootstrap.svg" alt="Bootstrap" class="w-12 mb-3" />
+                        <p class="text-purple-400 font-medium">Bootstrap</p>
+                    </div>
+
+                    <div
+                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#12F7D6]">
+                        <img src="./assetss/akar-icons--github-fill.svg" alt="GitHub" class="w-12 mb-3" />
+                        <p class="text-gray-200 font-medium">GitHub</p>
+                    </div>
+
+                    <div
+                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#12F7D6]">
+                        <img src="./assetss/skill-icons--figma-light.svg" alt="Figma" class="w-12 mb-3" />
+                        <p class="text-[#ff7262] font-medium">Figma</p>
+                    </div>
+
+                    <div
+                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#12F7D6]">
+                        <img src="./assetss/skill-icons--tailwindcss-light.svg" alt="Tailwind CSS" class="w-12 mb-3" />
+                        <p class="text-[#38bdf8] font-medium">Tailwind CSS</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- RECENTS WORKS  -->
+        <section class="relative bg-[#292F36] text-white py-20 px-6 bg-cover bg-center"
+            style="background-image: url('./assetss/Projects Page.png');">
+            <!-- Overlay -->
+            <div class="absolute inset-0 bg-black/60"></div>
+
+            <div class="relative max-w-6xl mx-auto z-10">
+                <!-- Section Header -->
+                <div class="text-center mb-12">
+                    <p class="text-xl font-semibold mb-2">
+                        My recent <span class="text-[#12F7D6]">projects</span>
+                    </p>
+                    <p class="text-gray-300 max-w-2xl mx-auto">
+                        I enjoy working on projects that challenge me to learn something new.
+                        Take a look at some of the applications I've built:
+                    </p>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Project Card 1 -->
+                    <div
+                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
+                        <img src="./assetss/project1.png" alt="Project 1" class="w-full h-48 object-cover" />
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-[#12F7D6] mb-2">Todo App</h3>
+                            <p class="text-gray-300 text-sm mb-4">
+                                A simple task management app built with React, allowing users to add, edit, and delete
+                                tasks
+                                efficiently.
+                            </p>
+                            <a href="#"
+                                class="inline-block bg-[#12F7D6] text-[#292F36] px-4 py-2 rounded-md font-semibold hover:bg-transparent hover:text-[#12F7D6] hover:border hover:border-[#12F7D6] transition-all duration-300">
+                                View Project
+                            </a>
                         </div>
-                        <div class="flex justify-center items-center flex-col">
-                            <img src="./assetss/Icon css.png" alt="" width="100">
-                            <p class="text-center text-blue-400">CSS</p>
+                    </div>
+
+                    <!-- Project Card 2 -->
+                    <div
+                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
+                        <img src="./assetss/project2.png" alt="Project 2" class="w-full h-48 object-cover" />
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-[#12F7D6] mb-2">Weather App</h3>
+                            <p class="text-gray-300 text-sm mb-4">
+                                A weather forecasting web app built with vanilla JavaScript and OpenWeather API.
+                            </p>
+                            <a href="#"
+                                class="inline-block bg-[#12F7D6] text-[#292F36] px-4 py-2 rounded-md font-semibold hover:bg-transparent hover:text-[#12F7D6] hover:border hover:border-[#12F7D6] transition-all duration-300">
+                                View Project
+                            </a>
                         </div>
-                        <div class="flex justify-center items-center flex-col">
-                            <img src="./assetss/Iconjs.png" alt="" width="100">
-                            <p class="text-center text-[#e7a020]">JS</p>
+                    </div>
+
+                    <!-- Project Card 3 -->
+                    <div
+                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
+                        <img src="./assetss/project3.png" alt="Project 3" class="w-full h-48 object-cover" />
+                        <div class="p-5">
+                            <h3 class="text-xl font-semibold text-[#12F7D6] mb-2">Portfolio Website</h3>
+                            <p class="text-gray-300 text-sm mb-4">
+                                My personal portfolio website designed with HTML, Tailwind CSS, and a touch of
+                                JavaScript
+                                interactivity.
+                            </p>
+                            <a href="#"
+                                class="inline-block bg-[#12F7D6] text-[#292F36] px-4 py-2 rounded-md font-semibold hover:bg-transparent hover:text-[#12F7D6] hover:border hover:border-[#12F7D6] transition-all duration-300">
+                                View Project
+                            </a>
                         </div>
-                        <div class="flex justify-center items-center flex-col">
-                            <img src="./assetss/Icon react.png" alt="" width="100">
-                            <p class="text-center text-[#28a9e0]">REACT</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS SECTION-->
+        <section class="bg-[#292F36] text-white py-16 px-6">
+            <h2 class="text-3xl font-bold text-[#12F7D6] text-center mb-12">
+                My Certificates
+            </h2>
+
+            <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div
+                    class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2">
+                    <img src="./assetss/cert1.png" alt="Certificate 1" class="w-full h-52 object-cover" />
+                    <div class="p-5">
+                        <h3 class="text-xl font-semibold text-[#12F7D6] mb-2">
+                            React Fundamentals
+                        </h3>
+                        <p class="text-gray-300 text-sm mb-4">
+                            Completed a comprehensive React course covering components, state, and hooks.
+                        </p>
+                        <a href="#"
+                            class="inline-block bg-[#12F7D6] text-[#292F36] px-4 py-2 rounded-md font-semibold hover:bg-transparent hover:text-[#12F7D6] hover:border hover:border-[#12F7D6] transition-all duration-300">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div
+                    class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2">
+                    <img src="./assetss/cert2.png" alt="Certificate 2" class="w-full h-52 object-cover" />
+                    <div class="p-5">
+                        <h3 class="text-xl font-semibold text-[#12F7D6] mb-2">
+                            Frontend Development
+                        </h3>
+                        <p class="text-gray-300 text-sm mb-4">
+                            Learned HTML, CSS, and JavaScript fundamentals for building responsive web apps.
+                        </p>
+                        <a href="#"
+                            class="inline-block bg-[#12F7D6] text-[#292F36] px-4 py-2 rounded-md font-semibold hover:bg-transparent hover:text-[#12F7D6] hover:border hover:border-[#12F7D6] transition-all duration-300">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div
+                    class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2">
+                    <img src="./assetss/cert3.png" alt="Certificate 3" class="w-full h-52 object-cover" />
+                    <div class="p-5">
+                        <h3 class="text-xl font-semibold text-[#12F7D6] mb-2">
+                            JavaScript Mastery
+                        </h3>
+                        <p class="text-gray-300 text-sm mb-4">
+                            Advanced JavaScript concepts, DOM manipulation, and project-based learning.
+                        </p>
+                        <a href="#"
+                            class="inline-block bg-[#12F7D6] text-[#292F36] px-4 py-2 rounded-md font-semibold hover:bg-transparent hover:text-[#12F7D6] hover:border hover:border-[#12F7D6] transition-all duration-300">
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CONTACT SECTION -->
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="relative bg-[#292F36] text-white py-20 px-6 md:px-12 lg:px-24">
+            <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+                <!-- Left: Contact Info -->
+                <div>
+                    <h2 class="text-4xl font-bold mb-4 text-[#12F7D6]">Get in Touch</h2>
+                    <p class="text-gray-300 mb-8">
+                        Have a question, a project idea, or just want to say hi?
+                        Feel free to drop me a message — I’d love to connect!
+                    </p>
+
+                    <div class="space-y-4">
+                        <div class="flex items-center gap-3">
+                            <i class="fa-solid fa-envelope text-[#12F7D6] text-xl"></i>
+                            <a href="mailto:solomon@example.com"
+                                class="hover:text-[#12F7D6] transition-colors">solomon@example.com</a>
                         </div>
-                        <div class="flex justify-center items-center flex-col">
-                            <img src="./assetss/devicon--bootstrap.svg" alt="" width="100">
-                            <p class="text-center text-[#7913ef]">BOOTSTRAP</p>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-brands fa-github text-[#12F7D6] text-xl"></i>
+                            <a href="https://github.com/yourgithub" target="_blank"
+                                class="hover:text-[#12F7D6] transition-colors">github.com/yourgithub</a>
                         </div>
-                        <div class="flex justify-center items-center flex-col">
-                            <img src="./assetss/akar-icons--github-fill.svg" alt="" width="100">
-                            <p class="text-center font-bold ">GITHUB</p>
-                        </div>
-                        <div class="flex justify-center items-center flex-col">
-                            <img src="./assetss/skill-icons--figma-light.svg" alt="" width="100">
-                            <p class="text-center text-[#ff7262]">FIGMA</p>
-                        </div>
-                        <div class="flex justify-center items-center flex-col">
-                            <img src="./assetss/skill-icons--tailwindcss-light.svg" alt="" width="100">
-                            <p class="text-center text-[#38bdf8]">TAILWIND CSS</p>
+
+                        <div class="flex items-center gap-3">
+                            <i class="fa-brands fa-linkedin text-[#12F7D6] text-xl"></i>
+                            <a href="https://linkedin.com/in/yourlinkedin" target="_blank"
+                                class="hover:text-[#12F7D6] transition-colors">linkedin.com/in/yourlinkedin</a>
                         </div>
                     </div>
                 </div>
 
-            </div>
-        </section>
+                <!-- Right: Contact Form -->
+                <form class="bg-[#1E222A] p-8 rounded-2xl shadow-lg space-y-6 border border-[#12F7D6]/20">
+                    <div>
+                        <label for="name" class="block text-sm font-medium mb-2">Name</label>
+                        <input id="name" type="text" placeholder="Enter your name"
+                            class="w-full p-3 rounded-lg bg-[#292F36] border border-gray-600 focus:border-[#12F7D6] outline-none transition-colors"
+                            required />
+                    </div>
 
-        <!-- RECENTS WORKS  -->
-        <section>
-            <div>
-                <div>
-                    <p>My recent projects</p>
-                    <p>I enjoy working on projects that challenge me to learn something new. Take a look at some of the
-                        applications I've
-                        built:</p>
-                </div>
+                    <div>
+                        <label for="email" class="block text-sm font-medium mb-2">Email</label>
+                        <input id="email" type="email" placeholder="Enter your email"
+                            class="w-full p-3 rounded-lg bg-[#292F36] border border-gray-600 focus:border-[#12F7D6] outline-none transition-colors"
+                            required />
+                    </div>
 
+                    <div>
+                        <label for="message" class="block text-sm font-medium mb-2">Message</label>
+                        <textarea id="message" rows="5" placeholder="Write your message..."
+                            class="w-full p-3 rounded-lg bg-[#292F36] border border-gray-600 focus:border-[#12F7D6] outline-none transition-colors resize-none"
+                            required></textarea>
+                    </div>
+
+                    <button type="submit"
+                        class="bg-[#12F7D6] text-[#292F36] font-semibold py-3 px-6 rounded-lg w-full hover:bg-transparent hover:text-[#12F7D6] border border-[#12F7D6] transition-colors">
+                        Send Message
+                    </button>
+                </form>
             </div>
         </section>
     </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-[#292F36] text-gray-300 py-12 px-6 md:px-12">
+        <!-- Divider -->
+        <div class="border-t flex justify-between items-center border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
+            <p>© 2025 Solomon. All rights reserved.</p>
+            
+            <p class="">
+                Built with 💻 using <span class="text-[#12F7D6] font-semibold">React</span> & <span
+                    class="text-[#12F7D6] font-semibold">Tailwind CSS</span>
+            </p>
+
+            <div>
+                <div class="flex gap-4">
+                    <a href="https://github.com/yourgithub" target="_blank"
+                        class="hover:text-[#12F7D6] transition-colors text-xl">
+                        <i class="fa-brands fa-github">jjj</i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourlinkedin" target="_blank"
+                        class="hover:text-[#12F7D6] transition-colors text-xl">
+                        <i class="fa-brands fa-linkedin">jjj</i>
+                    </a>
+                    <a href="mailto:solomon@example.com" class="hover:text-[#12F7D6] transition-colors text-xl">
+                        <i class="fa-solid fa-envelope">jjj</i>
+                    </a>
+                    <a href="https://twitter.com/yourtwitter" target="_blank"
+                        class="hover:text-[#12F7D6] transition-colors text-xl">
+                        <i class="fa-brands fa-x-twitter">iiu</i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
     <aside></aside>
 
 </body>
