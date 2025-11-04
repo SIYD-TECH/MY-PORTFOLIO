@@ -20,3 +20,36 @@
     mobileMenu.classList.add('translate-x-full');
     overlay.classList.add('hidden');
   });
+
+
+
+const form = document.querySelector('form[action="https://formspree.io/f/xldoyvlk"]');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault(); // prevent default HTML submission
+
+  const data = {
+    name: form.querySelector('#name').value,
+    email: form.querySelector('#email').value,
+    message: form.querySelector('#message').value
+  };
+
+  try {
+    const response = await fetch(form.action, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data)
+    });
+
+    if (response.ok) {
+      alert('Message sent successfully!');
+      form.reset();
+    } else {
+      alert('Failed to send message. Please try again.');
+    }
+  } catch (err) {
+    console.error(err);
+    alert('An error occurred. Please try again.');
+  }
+});
+
