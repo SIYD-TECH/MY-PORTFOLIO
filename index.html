@@ -15,8 +15,6 @@
 
         .about {
             background-image: url('./assetss/About\ me\ big.png');
-            /* width: 100vw;
-            height: 100vh; */
         }
 
         .skills {
@@ -29,16 +27,8 @@
     <header class="sticky top-0 left-0 right-0" style="z-index: 50;">
         <nav class="bg-[#292F36] h-[10vh] flex items-center justify-between px-5 xl:px-35">
             <div class="flex items-center">
-                <!-- #03a7f1 -->
                 <p class="text-[#12F7D6] text-[1.3rem] sm:text-[1.5rem] font-bold"> &lt;/SIYD&gt;</p>
-                <!-- <p class="text-white sm:text-[1.2rem] hidden sm:block">SolomonOlurebi</p> -->
             </div>
-
-            <!-- <div class="flex gap-5">
-                <img src="./assetss/fa6-brands--square-x-twitter.svg" alt="" width="30">
-                <img src="./assetss/Github.png" alt="" width="30">
-                <img src="./assetss/mage--linkedin.svg" alt="" width="30">
-            </div> -->
 
             <div class="flex flex-col gap-[7px] sm:hidden" id="menu-btn">
                 <div class="w-[32px] h-[3px] rounded-[50px] bg-[#12F7D6] "></div>
@@ -136,9 +126,13 @@
                                     <img src="./assetss/Github.png" alt="icon-github" width="25" loading="lazy">
                                     <p>SIYD-TECH</p>
                                 </div>
-                                <button
-                                    class=" flex items-center text-black bg-white px-7 mt-2 w-fit py-3 rounded-[30px]">Download
-                                    CV <img src="./assetss/icon-download.png" alt="" width="20" loading="lazy"></button>
+                                <a href="./assetss/my resume.pdf" download>
+                                    <button
+                                        class=" flex items-center text-black bg-white px-7 mt-2 w-fit py-3 rounded-[30px] cursor-pointer">Download
+                                        CV <img src="./assetss/icon-download.png" alt="" width="20"
+                                            loading="lazy"></button>
+                                </a>
+
                             </div>
                         </div>
                     </div>
@@ -212,7 +206,6 @@
 
         <!-- SKILLS SECTION -->
         <section class=" bg-[#292F36] relative bg-cover bg-center bg-no-repeat py-24 px-8" id="skill">
-            <!-- <div class="absolute inset-0 bg-black/70 backdrop-blur-sm"></div> -->
 
             <div class="relative z-10 max-w-6xl mx-auto text-center text-white">
                 <!-- Heading -->
@@ -495,40 +488,7 @@
                     </div>
 
                     <!-- Project Card 3 -->
-                    <div
-                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
-                        <img src="./assetss/project3.png" alt="Project 3" class="w-full h-48 object-cover" />
-                        <div class="p-5">
-                            <h3 class="text-xl font-semibold text-[#12F7D6] mb-2">Portfolio Website</h3>
-                            <p class="text-gray-300 text-sm mb-4">
-                                My personal portfolio website designed with HTML, Tailwind CSS, and a touch of
-                                JavaScript
-                                interactivity.
-                            </p>
-                            <div class="flex flex-wrap gap-3 mb-4 mt-auto">
-                                <span
-                                    class="px-3 py-1 bg-[#292F36] text-[#12F7D6] rounded-full text-sm font-medium border border-[#12F7D6]">
-                                    HTML
-                                </span>
-                                <span
-                                    class="px-3 py-1 bg-[#292F36] text-[#12F7D6] rounded-full text-sm font-medium border border-[#12F7D6]">
-                                    CSS
-                                </span>
-                                <span
-                                    class="px-3 py-1 bg-[#292F36] text-[#12F7D6] rounded-full text-sm font-medium border border-[#12F7D6]">
-                                    JavaScript
-                                </span>
-                                <span
-                                    class="px-3 py-1 bg-[#292F36] text-[#12F7D6] rounded-full text-sm font-medium border border-[#12F7D6]">
-                                    Tailwind
-                                </span>
-                            </div>
-                            <a href=""
-                                class="inline-block bg-[#12F7D6] text-[#292F36] px-4 py-2 rounded-md font-semibold hover:bg-transparent hover:text-[#12F7D6] hover:border hover:border-[#12F7D6] transition-all duration-300">
-                                View Project
-                            </a>
-                        </div>
-                    </div>
+
                 </div>
             </div>
         </section>
