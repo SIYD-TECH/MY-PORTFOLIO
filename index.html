@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        </SIYD>
+        &lt;/SIYD&gt;
     </title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <style>
         body {
             overflow-x: hidden;
@@ -27,7 +28,8 @@
     <header class="sticky top-0 left-0 right-0" style="z-index: 50;">
         <nav class="bg-[#292F36] h-[10vh] flex items-center justify-between px-5 xl:px-35">
             <div class="flex items-center">
-                <p class="text-[#12F7D6] text-[1.3rem] sm:text-[1.5rem] font-bold"> &lt;/SIYD&gt;</p>
+                <p class="text-[#12F7D6] text-[1.3rem] sm:text-[1.5rem] font-bold" data-aos="fade-down"
+                    data-aos-duration="1000"> &lt;/SIYD&gt;</p>
             </div>
 
             <div class="flex flex-col gap-[7px] sm:hidden" id="menu-btn">
@@ -36,9 +38,10 @@
                 <div class="w-[32px] h-[3px] rounded-[50px] bg-[#12F7D6] "></div>
             </div>
 
-            <div class="hidden sm:flex flex gap-[30px] md:text-[1.2rem] font-medium">
+            <div class="hidden sm:flex flex gap-[30px] md:text-[1.2rem] font-medium" data-aos="fade-down"
+                data-aos-delay="200" data-aos-duration="1000">
                 <p
-                    class="text-[#f5f5f5] cursor-pointer transition  ease-in-out duration-300 hover:text-[#12F7D6] hover:-translate-y-1 hover:scale-105 ">
+                    class="text-[#f5f5f5] cursor-pointer transition  ease-in-out duration-300 hover:text-[#12F7D6] hover:-translate-y-1 hover:scale-105 ">
                     <a href="#home">Home</a>
                 </p>
                 <p
@@ -46,8 +49,8 @@
                     <a href="#about">About Me</a>
                 </p>
 
-                <p class="text-[#fafafa] cursor-pointer transition ease-in-out duration-300 hover:text-[#12F7D6] hover:scale-105
-                                        hover:-translate-y-1">
+                <p
+                    class="text-[#fafafa] cursor-pointer transition ease-in-out duration-300 hover:text-[#12F7D6] hover:scale-105 hover:-translate-y-1">
                     <a href="#projects">Projects</a>
                 </p>
 
@@ -56,8 +59,8 @@
                     <a href="#cert">Certifications</a>
                 </p>
 
-                <p class="text-[#fafafa] cursor-pointer transition ease-in-out duration-300 hover:text-[#12F7D6] hover:scale-105
-                                                        hover:-translate-y-1">
+                <p
+                    class="text-[#fafafa] cursor-pointer transition ease-in-out duration-300 hover:text-[#12F7D6] hover:scale-105 hover:-translate-y-1">
                     <a href="#contact">Contact</a>
                 </p>
             </div>
@@ -88,18 +91,18 @@
     </header>
 
     <main>
-        <!-- HERO SECTION -->
         <section class="bg-[#292F36] min-h-fit md:px-30 px-5 " id="home">
             <div class="h-[1px] w-full bg-gray-600/50"></div>
-            <h1 class="text-[#98FAEC] text-center font-medium text-[4rem] hidden md:block py-[30px] pt-20">DEV
+            <h1 class="text-[#98FAEC] text-center font-medium text-[4rem] hidden md:block py-[30px] pt-20"
+                data-aos="zoom-in" data-aos-duration="1200">DEV
                 &lt;/SIYD&gt;
             </h1>
 
             <div class=" flex justify-center w-full pt-10 pb-20">
                 <div class="xl:flex items-center gap-[100px] w-fit">
-                    <div class="flex justify-center">
+                    <div class="flex justify-center" data-aos="fade-right" data-aos-duration="1500">
                         <div
-                            class="w-[270px] h-[420px] border-4 border-white bg-[#292F36] rounded-br-[150px] rounded-tl-[150px]  shadow-[-4px_-4px_0px_#12F7D6] text-center px-4 py-7">
+                            class="w-[270px] h-[420px] border-4 border-white bg-[#292F36] rounded-br-[150px] rounded-tl-[150px] shadow-[-4px_-4px_0px_#12F7D6] text-center px-4 py-7">
                             <div class="flex flex-col align-center mt-10">
                                 <p class="text-white">Full-stack developer</p>
                             </div>
@@ -133,7 +136,7 @@
                         </div>
                     </div>
 
-                    <div class="text-white">
+                    <div class="text-white" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300">
                         <div class="w-fit">
                             <p class="text-[#12F7D6]/60 w-fit mt-5">&lt;h1&gt;</p>
                             <div class="ml-5 w-fit">
@@ -151,7 +154,8 @@
                         </div>
                     </div>
 
-                    <div class="bg-[#1a1e23] w-[230px] h-fit text-[white] px-5 py-8 rounded-[70px] flex flex-col gap-5">
+                    <div class="bg-[#1a1e23] w-[230px] h-fit text-[white] px-5 py-8 rounded-[70px] flex flex-col gap-5"
+                        data-aos="fade-left" data-aos-duration="1500" data-aos-delay="600">
                         <p class="flex items-center gap-3 text-[1.3rem]"><span
                                 class="text-[2.5rem] text-[#12F7D6]">8+</span>Projects</p>
                         <p class="flex items-center gap-3 text-[1.3rem]"><span
@@ -163,13 +167,12 @@
             </div>
         </section>
 
-        <!-- ABOUT ME SECTION -->
         <section class="flex justify-center about xl:px-40 px-5 min-h-fit py-30" id="about">
             <div class="flex flex-col lg:flex-row h-fit lg:gap-30 xl:gap-80 justify-center w-full">
-                <div class="py-10">
+                <div class="py-10" data-aos="fade-right" data-aos-duration="1000">
                     <div class="flex justify-center mb-5 lg:justify-start">
                         <h2
-                            class="bg-[#292F36] border-2 border-[#12F7D6] w-fit text-white text-[2rem] px-3  rounded-br-[30px] rounded-tl-[30px]">
+                            class="bg-[#292F36] border-2 border-[#12F7D6] w-fit text-white text-[2rem] px-3  rounded-br-[30px] rounded-tl-[30px]">
                             About Me</h2>
                     </div>
 
@@ -194,74 +197,72 @@
                     </div>
 
                 </div>
-                <div class="flex justify-center">
+                <div class="flex justify-center" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="300">
                     <img src="./assetss/Image.png" alt="" loading="lazy">
                 </div>
             </div>
         </section>
 
-        <!-- SKILLS SECTION -->
         <section class=" bg-[#292F36] relative bg-cover bg-center bg-no-repeat py-24 px-8" id="skill">
 
             <div class="relative z-10 max-w-6xl mx-auto text-center text-white">
-                <!-- Heading -->
-                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-[#12F7D6] tracking-wide">
+                <h2 class="text-4xl md:text-5xl font-bold mb-6 text-[#12F7D6] tracking-wide" data-aos="fade-up"
+                    data-aos-duration="800">
                     Skills & Tools
                 </h2>
-                <p class="text-gray-300 max-w-2xl mx-auto mb-16">
+                <p class="text-gray-300 max-w-2xl mx-auto mb-16" data-aos="fade-up" data-aos-delay="200"
+                    data-aos-duration="800">
                     These are the technologies and tools I work with to build creative and
                     high-performing web applications.
                 </p>
 
-                <!-- Skills Grid -->
                 <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-10 place-items-center">
-                    <!-- Skill Card -->
-                    <div
-                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#ff8800]">
+                    <div class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#ff8800]"
+                        data-aos="zoom-in" data-aos-duration="500" data-aos-delay="100">
                         <img src="./assetss/Icon html.png" alt="HTML" class="w-12 mb-3" loading="lazy" />
                         <p class="text-[#ff8800] font-medium">HTML</p>
                     </div>
 
-                    <div
-                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#0c73b8]">
+                    <div class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#0c73b8]"
+                        data-aos="zoom-in" data-aos-duration="500" data-aos-delay="200">
                         <img src="./assetss/Icon css.png" alt="CSS" class="w-12 mb-3" loading="lazy" />
                         <p class="text-[#38bdf8] font-medium">CSS</p>
                     </div>
 
-                    <div
-                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-yellow-400">
+                    <div class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-yellow-400"
+                        data-aos="zoom-in" data-aos-duration="500" data-aos-delay="300">
                         <img src="./assetss/Iconjs.png" alt="JavaScript" class="w-12 mb-3" loading="lazy" />
                         <p class="text-yellow-400 font-medium">JavaScript</p>
                     </div>
 
-                    <div
-                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#28a8df]">
+                    <div class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#28a8df]"
+                        data-aos="zoom-in" data-aos-duration="500" data-aos-delay="400">
                         <img src="./assetss/Icon react.png" alt="React" class="w-12 mb-3" loading="lazy" />
                         <p class="text-[#38bdf8] font-medium">React</p>
                     </div>
 
-                    <div
-                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-purple-400">
+                    <div class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-purple-400"
+                        data-aos="zoom-in" data-aos-duration="500" data-aos-delay="500">
                         <img src="./assetss/devicon--bootstrap.svg" alt="Bootstrap" class="w-12 mb-3" loading="lazy" />
                         <p class="text-purple-400 font-medium">Bootstrap</p>
                     </div>
 
-                    <div
-                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-gray-200">
+                    <div class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-gray-200"
+                        data-aos="zoom-in" data-aos-duration="500" data-aos-delay="600">
                         <img src="./assetss/akar-icons--github-fill.svg" alt="GitHub" class="w-12 mb-3"
                             loading="lazy" />
                         <p class="text-gray-200 font-medium">GitHub</p>
                     </div>
 
-                    <div
-                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#ff7262]">
+                    <div class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#ff7262]"
+                        data-aos="zoom-in" data-aos-duration="500" data-aos-delay="700">
                         <img src="./assetss/skill-icons--figma-light.svg" alt="Figma" class="w-12 mb-3"
                             loading="lazy" />
                         <p class="text-[#ff7262] font-medium">Figma</p>
                     </div>
 
-                    <div
-                        class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#38bdf7]">
+                    <div class="bg-[#1c222a] backdrop-blur-lg border border-white/20 rounded-2xl p-6 w-[120px] sm:w-[150px] h-[150px] flex flex-col items-center justify-center hover:scale-105 transition-transform duration-300 hover:border-[#38bdf7]"
+                        data-aos="zoom-in" data-aos-duration="500" data-aos-delay="800">
                         <img src="./assetss/skill-icons--tailwindcss-light.svg" alt="Tailwind CSS" class="w-12 mb-3"
                             loading="lazy" />
                         <p class="text-[#38bdf8] font-medium">Tailwind CSS</p>
@@ -271,17 +272,12 @@
         </section>
 
 
-
-
-        <!-- RECENTS WORKS  -->
         <section class="relative bg-[#292F36] text-white pb-20 pt-30 px-6 bg-cover bg-center"
             style="background-image: url('./assetss/Projects Page.png');" id="projects">
-            <!-- Overlay -->
             <div class="absolute inset-0 bg-black/60"></div>
 
             <div class="relative max-w-6xl mx-auto z-10">
-                <!-- Section Header -->
-                <div class="text-center mb-12">
+                <div class="text-center mb-12" data-aos="fade-up" data-aos-duration="800">
                     <p class="text-[3rem] font-semibold mb-2">
                         My recent <span class="text-[#12F7D6]">projects</span>
                     </p>
@@ -291,11 +287,9 @@
                     </p>
                 </div>
 
-                <!-- Projects Grid -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Project Card 1 -->
-                    <div
-                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
+                    <div class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         <img src="./assetss/lauconnect.png" alt="Project 1" class="w-full h-48 object-cover"
                             loading="lazy" />
                         <div class="p-5">
@@ -332,9 +326,8 @@
                         </div>
                     </div>
 
-                    <!-- Project Card 2 -->
-                    <div
-                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
+                    <div class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                         <img src="./assetss/seed 18.png" alt="Project 2" class="w-full h-48 object-cover"
                             loading="lazy" />
                         <div class="p-5">
@@ -371,9 +364,8 @@
                         </div>
                     </div>
 
-                    <!-- Project Card 3 -->
-                    <div
-                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
+                    <div class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                         <img src="./assetss/todo-list.png" alt="Project 3" class="w-full h-48 object-cover"
                             loading="lazy" />
                         <div class="p-5 ">
@@ -409,9 +401,8 @@
                         </div>
                     </div>
 
-                    <!-- Project Card 3 -->
-                    <div
-                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
+                    <div class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="700">
                         <img src="./assetss/quote.png" alt="Project 3" class="w-full h-48 object-cover"
                             loading="lazy" />
                         <div class="p-5">
@@ -444,9 +435,8 @@
                         </div>
                     </div>
 
-                    <!-- Project Card 3 -->
-                    <div
-                        class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300">
+                    <div class="bg-[#1E242C]/90 rounded-xl overflow-hidden border border-[#12F7D6] shadow-lg hover:shadow-[#12F7D6]/30 hover:-translate-y-2 transition-all duration-300"
+                        data-aos="fade-up" data-aos-duration="800" data-aos-delay="900">
                         <img src="./assetss/trafalgar.png" alt="Project 3" class="w-full h-48 object-cover"
                             loading="lazy" />
                         <div class="p-5">
@@ -483,22 +473,18 @@
                         </div>
                     </div>
 
-                    <!-- Project Card 3 -->
-
                 </div>
             </div>
         </section>
 
-        <!-- CERTIFICATIONS SECTION-->
         <section class="bg-[#31373F] text-white py-30 px-8" id="cert">
-            <h2 class="text-3xl font-bold text-[#12F7D6] text-center mb-12">
+            <h2 class="text-3xl font-bold text-[#12F7D6] text-center mb-12" data-aos="fade-up" data-aos-duration="800">
                 My Certificates
             </h2>
 
             <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Card 1 -->
-                <div
-                    class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2">
+                <div class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2"
+                    data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                     <img src="./assetss/cert1.png" alt="Certificate 1" class="w-full h-52 object-cover"
                         loading="lazy" />
                     <div class="p-5">
@@ -520,9 +506,8 @@
                     </div>
                 </div>
 
-                <!-- Card 2 -->
-                <div
-                    class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2">
+                <div class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2"
+                    data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                     <img src="./assetss/cert2.png" alt="Certificate 2" class="w-full h-52 object-cover"
                         loading="lazy" />
                     <div class="p-5">
@@ -542,9 +527,8 @@
                     </div>
                 </div>
 
-                <!-- Card 3 -->
-                <div
-                    class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2">
+                <div class="bg-[#1E242C] border border-[#12F7D6] rounded-2xl overflow-hidden shadow-md hover:shadow-[#12F7D6]/30 transition-all duration-300 hover:-translate-y-2"
+                    data-aos="fade-up" data-aos-duration="800" data-aos-delay="500">
                     <img src="./assetss/cert3.png" alt="Certificate 3" class="w-full h-52 object-cover"
                         loading="lazy" />
                     <div class="p-5">
@@ -567,11 +551,9 @@
         </section>
 
 
-        <!-- CONTACT SECTION -->
         <section id="contact" class="relative bg-[#292F36] text-white py-20 px-6 md:px-12 lg:px-24">
             <div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-                <!-- Left: Contact Info -->
-                <div>
+                <div data-aos="fade-right" data-aos-duration="1000">
                     <h2 class="text-4xl font-bold mb-4 text-[#12F7D6]">Get in Touch</h2>
                     <p class="text-gray-300 mb-8">
                         Have a question, a potential project, or an idea you’d like to bring to life? I’d be happy to
@@ -583,9 +565,9 @@
                     </p>
                 </div>
 
-                <!-- Right: Contact Form -->
                 <form class="bg-[#1E222A] p-8 rounded-2xl shadow-lg space-y-6 border border-[#12F7D6]/20"
-                    action="https://formspree.io/f/xldoyvlk" method="POST">
+                    action="https://formspree.io/f/xldoyvlk" method="POST" data-aos="fade-left" data-aos-duration="1000"
+                    data-aos-delay="300">
                     <div>
                         <label for="name" class="block text-sm font-medium mb-2">Name</label>
                         <input id="name" type="text" placeholder="Enter your name"
@@ -617,42 +599,94 @@
     </main>
 
     <!-- FOOTER -->
-    <footer class="bg-[#292F36] text-gray-300 py-10 px-6 md:px-12 xl:px-24">
+
+    <footer class="bg-[#292F36] text-gray-300 py-10 px-6 md:px-12 xl:px-24" data-aos="fade" data-aos-duration="1000">
+
         <!-- Footer Bottom -->
+
         <div
             class="border-t border-gray-500 pt-6 mt-6 flex flex-col md:flex-row justify-between items-center gap-6 text-center md:text-left text-sm text-gray-400">
 
+
+
             <!-- Copyright -->
+
             <p class="order-3 md:order-1">© 2025 Solomon. All rights reserved.</p>
 
+
+
             <!-- Social Icons -->
+
             <div class="order-2 md:order-3">
+
                 <div class="flex justify-center md:justify-end gap-5 text-xl">
+
                     <a href="https://github.com/SIYD-TECH" target="_blank"
                         class="transition-all duration-300 hover:scale-110 hover:brightness-150 hover:scale-110">
+
                         <img src="./assetss/Github.png" alt="icon-github" width="30" loading="lazy">
+
                     </a>
+
+
 
                     <a href="https://x.com/SIYDTHEDEV?t=Xj0EeE7OybvkKhCMU-vF8g&s=09" target="_blank"
                         class="transition-all duration-300 hover:scale-110 hover:brightness-150 hover:scale-110">
+
                         <img src="./assetss/fa6-brands--square-x-twitter.svg" alt="icon-twitter" width="25"
                             loading="lazy">
+
                     </a>
+
+
 
                     <a href="https://www.linkedin.com/in/solomon-olurebi-aaa754340?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                         target="_blank"
                         class="transition-all duration-300 hover:scale-110 hover:brightness-150 hover:scale-110">
+
                         <img src="./assetss/mage--linkedin.svg" alt="icon-linkedin" width="30" loading="lazy">
+
                     </a>
+
                 </div>
+
             </div>
 
-        </div>
-    </footer>
 
+
+        </div>
+
+    </footer>
 
 
 </body>
 <script src="./script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    // Initialize AOS
+    document.addEventListener('DOMContentLoaded', () => {
+        AOS.init({
+            // Global settings:
+            disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+            startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+            initClassName: 'aos-init', // class applied after initialization
+            animatedClassName: 'aos-animate', // class applied on animation
+            useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+            disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+            debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+            throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+            // Settings that can be overridden by per-element `data-aos-*` attributes:
+            offset: 120, // offset (in px) from the original trigger point
+            delay: 0, // values from 0 to 3000, with step 50ms
+            duration: 1000, // values from 0 to 3000, with step 50ms
+            easing: 'ease', // default easing for AOS animations
+            // once: true, // whether animation should happen only once - while scrolling down
+            mirror: false, // whether elements should animate out while scrolling past them
+            anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+        });
+    });
+</script>
 
 </html>
